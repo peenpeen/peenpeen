@@ -87,16 +87,16 @@ public class MyCollection {
     public static List<String> relationship(){
         List<String> relation = new ArrayList<String>();
 
-        relation.add("BestFriend");
-        relation.add("Complicated");
-        relation.add("Enemy");
-        relation.add("Friends");
-        relation.add("Friendzone");
-        relation.add("Follower");
-        relation.add("FUBU");
-        relation.add("Partner In Crimes");
-        relation.add("Seenzone");
-        relation.add("Stalker");
+        relation.add(" is BestFriend of ");
+        relation.add(" is Complicated with ");
+        relation.add(" is Enemy of ");
+        relation.add(" is Friend of ");
+        relation.add(" was being Friendzoned by ");
+        relation.add(" is a Follower of ");
+        relation.add(" is the FUBU of ");
+        relation.add(" is the Partner In Crimes of ");
+        relation.add(" was being Seenzoned by ");
+        relation.add(" is a Stalker of ");
 
 
         /*int allGirlFriends = myGirlFriends.size();
@@ -128,18 +128,18 @@ public class MyCollection {
         String girlFriend = randomizer(myGirlFriends());
         String relationship = randomizer(relationship());
 
-        String sentence = friend + " is " + relationship + " with " + girlFriend + "!";
+        String sentence = friend + relationship + girlFriend + "!";
         String sentenceAddedEmoticon;
 
-        if(relationship == "FUBU" || relationship == "Stalker"){
+        if(relationship == "is the FUBU of " || relationship == "is a Stalker of "){
             sentenceAddedEmoticon = sentence + " :O";
-        }else if(relationship == "Complicated" || relationship == "Friendzone" || relationship == "Seenzone"){
+        }else if(relationship == "is Complicated with " || relationship == "was being Friendzoned by " || relationship == "was being Seenzoned by "){
             sentenceAddedEmoticon = sentence + " :'(";
-        }else if(relationship == "BestFriend"){
+        }else if(relationship == "is BestFriend of "){
             sentenceAddedEmoticon = sentence + " :D";
-        }else if(relationship == "Enemy"){
+        }else if(relationship == "is Enemy of "){
             sentenceAddedEmoticon = sentence + " :X";
-        }else if(relationship == "Partner In Crimes"){
+        }else if(relationship == "is the Partner In Crimes of "){
             sentenceAddedEmoticon = sentence + " >:D";
         }else{
             sentenceAddedEmoticon = sentence + " :)";
