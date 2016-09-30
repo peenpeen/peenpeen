@@ -9,8 +9,7 @@ public class Main {
         public static void main(String[] args) {
             // my first comment in this IT up skilling program :D
 
-            /**
-             *
+            /**             *
              * first multi-liner comment
              * if started with 2 asterisk
              *
@@ -174,10 +173,7 @@ public class Main {
 
             System.out.println("");
             System.out.println("");
-
-            /*MyCollection.myFriends();
-            MyCollection.spacer();
-            MyCollection.myGirlFriends();*/
+            
             MyCollection.runPairer();
 
 

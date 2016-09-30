@@ -86,16 +86,18 @@ public class MyCollection {
 
     public static List<String> relationship(){
         List<String> relation = new ArrayList<String>();
-        relation.add("Complicated");
-        relation.add("FUBU");
+
         relation.add("BestFriend");
+        relation.add("Complicated");
         relation.add("Enemy");
         relation.add("Friends");
-        relation.add("Partner In Crimes");
         relation.add("Friendzone");
         relation.add("Follower");
-        relation.add("Stalker");
+        relation.add("FUBU");
+        relation.add("Partner In Crimes");
         relation.add("Seenzone");
+        relation.add("Stalker");
+
 
         /*int allGirlFriends = myGirlFriends.size();
         int startGFCounter;
